@@ -5,7 +5,7 @@ import { Routes,Route } from "react-router-dom"
 export const App =()=> {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/profile_v2" element={<HomePage />} />
     </Routes>
   );
 }
