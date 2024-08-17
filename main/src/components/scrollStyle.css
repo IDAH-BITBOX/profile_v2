@@ -1,13 +1,13 @@
 #root {
   margin: 100px auto;
-  max-width: 500px;
+  max-width: 700px;
   padding-bottom: 100px;
 }
 
-.card {
-  font-size: 164px;
-  width: 300px;
-  height: 430px;
+.sector {
+  font-size: 40px;
+  width: 500px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,17 +25,15 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-top: 20px;
-  margin-bottom: -120px;
+  padding-top: 5px;
+  margin-bottom: -50px;
 }
 
 .splash {
   position: absolute;
-  bottom: 0;
+  bottom: 150px;
   left: 0;
-  right: 0;
+  right: 500px;
   top: 0;
-  clip-path: path(
-    "M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z"
-  );
+  border-radius: 30px;
 }
